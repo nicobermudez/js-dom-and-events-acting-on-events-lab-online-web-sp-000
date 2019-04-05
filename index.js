@@ -28,7 +28,6 @@ function clearEmployeeListOnLinkClick() {
   let ul = document.querySelector('ul')
   link.addEventListener('click', function(event){
     ul.innerHTML = ''
-    resetInput()
   })
 }
 function resetInput(){
