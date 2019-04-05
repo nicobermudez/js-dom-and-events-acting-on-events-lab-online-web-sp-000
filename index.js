@@ -22,5 +22,8 @@ function addNewLiOnClick() {
     return addNewElementAsLi()
     resetInput()
   })
+}
 
+function resetInput(){
+  document.querySelector('input').value = ''
 }
