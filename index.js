@@ -12,5 +12,5 @@ function retrieveEmployeeInformation() {
 }
 
 function addNewElementAsLi() {
-  let employeeName = retrieve
+  let employeeName = retrieveEmployeeInformation()
 }
